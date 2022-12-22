@@ -34,6 +34,7 @@ font-weight: 900;}
 
 .emoji, .itemCounter h2{
     font-family: 'Inter', sans-serif;}
+.menu,.order,form, form input{ padding: 1rem; }
      
 .menu{
 margin: auto;
@@ -57,10 +58,7 @@ justify-self: center;}
 
 .pointer{ cursor: pointer;}
 .complete,form{display: none;}
-.menu,.order,form, form input{ padding: 1rem; }
 
-
-    
 .light{font-weight: 100;
 color: #8B8B8B;
 margin: 0 auto;}
@@ -83,15 +81,12 @@ color: #3C3C3C;}
 
 #complete{ display:none;}
 
-.orderComponents{align-items: center;
-}
 .orderComponents,#totalPrice{
-    display: flex;
-    padding: 0rem 2rem;}
+display: flex;
+padding: 0rem 2rem;
+align-items: center}
 
-#totalPrice{
-justify-content: space-between;
-max-width: 50em;
+#totalPrice{justify-content: space-between;
 font-size: 2rem;}
 
 .removeBtn,.purchaseBtn,.submit{
@@ -102,8 +97,7 @@ letter-spacing: 0.05rem;}
 .removeBtn{
 font-size: 0.75rem;
 margin-left: 3rem;
-margin-right: auto;
-text-align: left;}
+margin-right: auto;}
 
 .purchaseBtn,.submit{
 display: block;
@@ -113,7 +107,6 @@ border: none;
 text-decoration: none;
 color: white;
 background: #16DB99;
-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
 border-radius: 3px;
 font-size: 1rem;
 font-weight: 900;
@@ -122,6 +115,7 @@ margin: 1em auto;
 max-width: 25em;}
 
 form{
+    flex-direction: column;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 padding-bottom: 0;
 width: 28em;
@@ -144,7 +138,6 @@ margin-bottom:2em;
 font-size: 1.5rem;}
 
 .closeBtn{
-cursor: pointer;
 margin-left: auto;
 border: none;}
 
