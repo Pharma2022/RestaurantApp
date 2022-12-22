@@ -115,6 +115,7 @@ margin: 1em auto;
 max-width: 25em;}
 
 form{
+    margin: auto;
     flex-direction: column;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 padding-bottom: 0;
