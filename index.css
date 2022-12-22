@@ -1,0 +1,162 @@
+*, *::before,*::after{  box-sizing: border-box; }
+
+body,html {
+margin: 0 auto ;
+max-width: 50rem;
+font-family: 'Smythe', cursive;
+padding: 0;} 
+
+header{
+margin: 0 auto;
+width: 100%;
+height: 10em;
+justify-content: center;
+background: url("./jimmyDiner.png");
+background-size: cover;
+background-repeat: no-repeat;
+color:white;
+border: none;}
+
+header h1{
+font-size: 2.43rem;
+margin-bottom: auto;}
+
+header h2{
+font-size: 1.4rem;
+margin-top: 0.25rem;}
+
+header h1, header h2{
+color: whitesmoke;
+margin-left: 2rem;
+letter-spacing: 0.1rem;
+text-shadow: 1px 0px 0px black;
+font-weight: 900;}
+
+.emoji, .itemCounter h2{
+    font-family: 'Inter', sans-serif;}
+     
+.menu{
+margin: auto;
+max-width: 45em;}
+
+.item{ 
+display: grid;
+grid-template-columns: auto auto auto;
+justify-items: stretch;}
+    
+.emoji{
+font-size: 5rem;
+opacity: 0.72;
+width: 8rem;
+align-self: center;   }
+
+.plus{
+ margin-top: 0;   
+color: black;
+justify-self: center;}
+
+.pointer{ cursor: pointer;}
+.complete,form{display: none;}
+.menu,.order,form, form input{ padding: 1rem; }
+
+
+    
+.light{font-weight: 100;
+color: #8B8B8B;
+margin: 0 auto;}
+
+.itemComponents{   width: 15em;}
+.itemComponents h2, .orderComponents h2{   font-size: 2rem;}
+
+.itemCounter{
+align-self: center; 
+text-align: center;
+font-size: 1.5rem;
+width: 3rem;
+height: 3rem;
+border-radius: 2rem;
+border: 2px solid #DEDEDE;
+text-decoration: none;
+color: #3C3C3C;}
+    
+.itemCounter h2{font-weight: lighter;}
+
+#complete{ display:none;}
+
+.orderComponents{align-items: center;
+}
+.orderComponents,#totalPrice{
+    display: flex;
+    padding: 0rem 2rem;}
+
+#totalPrice{
+justify-content: space-between;
+max-width: 50em;
+font-size: 2rem;}
+
+.removeBtn,.purchaseBtn,.submit{
+font-family: Verdana, Geneva, Tahoma, sans-serif;   
+text-shadow: 0.5px 0px 0px black; 
+letter-spacing: 0.05rem;}
+
+.removeBtn{
+font-size: 0.75rem;
+margin-left: 3rem;
+margin-right: auto;
+text-align: left;}
+
+.purchaseBtn,.submit{
+display: block;
+text-align: center;
+width: 100%;
+border: none;
+text-decoration: none;
+color: white;
+background: #16DB99;
+box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+border-radius: 3px;
+font-size: 1rem;
+font-weight: 900;
+padding: 1.75em;
+margin: 1em auto;
+max-width: 25em;}
+
+form{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+padding-bottom: 0;
+width: 28em;
+height: 31em;
+position: fixed;
+top:0;
+bottom:0;
+left: 0;
+right: 0;
+background: whitesmoke;}
+
+form input{
+margin: 0.5rem auto;
+width: 100%;
+font-weight: 400;
+font-size: 1.25rem;}
+
+form h2{
+margin-bottom:2em;
+font-size: 1.5rem;}
+
+.closeBtn{
+cursor: pointer;
+margin-left: auto;
+border: none;}
+
+.thanks{
+text-align: center;
+color: #065F46;
+background: #ECFDF5;
+font-size: 2rem;
+padding: 2em;
+margin: auto 1em ;}
+
+.ruler{
+height: 0.125rem;
+color: black;   }
+
